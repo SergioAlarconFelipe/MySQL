@@ -7,3 +7,4 @@ SELECT *
 													WHERE post_type = 'page')
 						AND meta_key = '_wp_page_template'
 						AND meta_value = 'theme.php');
+
