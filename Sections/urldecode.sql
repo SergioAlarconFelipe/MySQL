@@ -1,0 +1,1 @@
+UPDATE field SET field = REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(field,'%24','$'), '%20', ' '),'%26','&'),'%2B','+'),'%2C',','),'%2F','/'),'%3A',':'),'%3B',';'),'%3D','='),'%3F','?'),'%40','@') WHERE field != ''
